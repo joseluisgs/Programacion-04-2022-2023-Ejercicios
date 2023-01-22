@@ -14,6 +14,7 @@ import org.junit.jupiter.api.assertAll
 
 class aparcamientoTests {
 
+    //El color rojo usado par los mensajes
     val RED = "\u001b[31m"
 
     var aparcamiento = Aparcamiento()
