@@ -25,13 +25,13 @@ fun main(){
     chapista.comer()
     println("---------------------")
     val electricista = (findFirstType<Electricista>(personas) as Electricista)
-    electricista.comer()
+    println(electricista)
     electricista.descansar()
     electricista.comer()
     println("---------------------")
 }
 
-private fun calculateNomina(personas: Array<Persona?>): Int {
+internal fun calculateNomina(personas: Array<Persona?>): Int {
     var total = 0
     for (i in personas){
         total += i?.salario ?: 0
@@ -40,7 +40,7 @@ private fun calculateNomina(personas: Array<Persona?>): Int {
 }
 
 // Muy parecido a C#
-private inline fun <reified Type : Persona> countType(personas: Array<Persona?>): Int {
+internal inline fun <reified Type : Persona> countType(personas: Array<Persona?>): Int {
     var count = 0
     for (i in personas){
         if (i is Type) count++
@@ -48,7 +48,7 @@ private inline fun <reified Type : Persona> countType(personas: Array<Persona?>)
     return count
 }
 
-private inline fun <reified Type : Persona> findFirstType(personas: Array<Persona?>): Persona? {
+internal inline fun <reified Type : Persona> findFirstType(personas: Array<Persona?>): Persona? {
     for (i in personas.indices){
         if (personas[i] is Type)
             return personas[i]
