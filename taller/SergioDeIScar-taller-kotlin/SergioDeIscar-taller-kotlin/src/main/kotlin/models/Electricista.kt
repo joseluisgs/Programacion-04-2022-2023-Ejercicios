@@ -7,6 +7,6 @@ open class Electricista(nombre: String, experiencia: Int, horasDiarias: Int): Tr
     }
 
     override fun toString(): String {
-        return "Electricusta -> Nombre: $nombre, Experiencia: $experiencia, Horas diarias: $horasDiarias, Salario: $salario"
+        return "Electricista -> Nombre: $nombre, Experiencia: $experiencia, Horas diarias: $horasDiarias, Salario: $salario"
     }
 }
