@@ -33,7 +33,7 @@ public class BandaMain {
         System.out.println("---------------------");
     }
 
-    private static float calculateNomina(Musician[] personas) {
+    public static float calculateNomina(Musician[] personas) {
         float total = 0;
         for (Musician i : personas) {
             total += i != null ? i.getSalario() : 0.0f;
@@ -42,7 +42,7 @@ public class BandaMain {
     }
 
     // No son genéricos, pero hacen la misma funcionalidad, no me funcionaban con genéricos
-    private static int countType(Musician[] personas, Class countClass) {
+    public static int countType(Musician[] personas, Class countClass) {
         int count = 0;
         for (Musician i : personas) {
             if (countClass.isInstance(i)) {
@@ -52,7 +52,7 @@ public class BandaMain {
         return count;
     }
 
-    private static Musician findFirstType(Musician[] personas, Class findClass) {
+    public static Musician findFirstType(Musician[] personas, Class findClass) {
         for (Musician persona : personas) {
             if (findClass.isInstance(persona)) {
                 return persona;

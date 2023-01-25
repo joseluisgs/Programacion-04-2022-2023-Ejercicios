@@ -4,7 +4,7 @@ import org.example.enums.PercussionType;
 import org.example.interfaces.IPercusionista;
 
 public final class Percusionista extends Musician implements IPercusionista {
-    private final Float salario = super.salario * 1.5f;
+    private final Float salario = super.salario * 1.35f;
     private PercussionType percussionType;
     public Percusionista(String nombre, int experiencia, PercussionType percussionType) {
         super(nombre, experiencia);
@@ -24,5 +24,10 @@ public final class Percusionista extends Musician implements IPercusionista {
     @Override
     public float getSalario() {
         return salario;
+    }
+
+    @Override
+    public String getNombre() {
+        return this.nombre;
     }
 }

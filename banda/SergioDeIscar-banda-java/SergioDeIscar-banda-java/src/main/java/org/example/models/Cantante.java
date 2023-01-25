@@ -31,4 +31,9 @@ public final class Cantante extends Musician implements ICantante {
     public void cantar() {
         System.out.println("El cantante " + nombre + " esta cantando");
     }
+
+    @Override
+    public String getNombre() {
+        return this.nombre;
+    }
 }

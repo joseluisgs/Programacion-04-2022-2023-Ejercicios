@@ -8,7 +8,7 @@ import org.example.interfaces.IGuitarrista;
 public final class CantanteGuitarrista extends Musician implements ICantante, IGuitarrista {
     private TonoType tonoType;
     private GuitarraType guitarraType;
-    private final Float salario = super.salario * 1.7f;
+    private final Float salario = super.salario * 1.5f;
     public CantanteGuitarrista(String nombre, int experiencia, TonoType tono, GuitarraType guitarra) {
         super(nombre, experiencia);
         setTono(tono);
@@ -48,5 +48,10 @@ public final class CantanteGuitarrista extends Musician implements ICantante, IG
     @Override
     public float getSalario() {
         return salario;
+    }
+
+    @Override
+    public String getNombre() {
+        return this.nombre;
     }
 }

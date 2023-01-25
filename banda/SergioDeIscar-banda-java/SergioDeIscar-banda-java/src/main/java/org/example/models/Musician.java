@@ -15,7 +15,12 @@ public abstract class Musician extends Persona{
     }
 
     @Override
-    void Respirar() {
+    public void Respirar() {
         System.out.println("El musico " + nombre + " esta respirando");
+    }
+
+    @Override
+    public String getNombre() {
+        return this.nombre;
     }
 }

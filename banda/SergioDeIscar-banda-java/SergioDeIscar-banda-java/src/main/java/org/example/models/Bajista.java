@@ -25,4 +25,9 @@ public final class Bajista extends Musician implements IBajista {
     public void setNumeroCuerdas(int numeroCuerdas) {
         this.numeroCuerdas = numeroCuerdas;
     }
+
+    @Override
+    public String getNombre() {
+        return this.nombre;
+    }
 }

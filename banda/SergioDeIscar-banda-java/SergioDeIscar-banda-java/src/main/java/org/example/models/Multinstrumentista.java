@@ -6,7 +6,7 @@ import org.example.interfaces.IPercusionista;
 import org.example.interfaces.ITeclista;
 
 public final class Multinstrumentista extends Musician implements IBajista, ITeclista, IPercusionista {
-    private final float salario = super.salario * 1.5f;
+    private final float salario = super.salario * 1.45f;
     private int numeroCuerdas;
     private PercussionType percussionType;
     private int cantidadTeclados;
@@ -56,5 +56,10 @@ public final class Multinstrumentista extends Musician implements IBajista, ITec
     @Override
     public float getSalario() {
         return salario;
+    }
+
+    @Override
+    public String getNombre() {
+        return this.nombre;
     }
 }

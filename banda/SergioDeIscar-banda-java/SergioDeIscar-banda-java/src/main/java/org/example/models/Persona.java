@@ -7,5 +7,7 @@ public abstract class Persona {
         this.nombre = nombre;
     }
 
-    abstract void Respirar();
+    public abstract void Respirar();
+
+    public abstract String getNombre();
 }
