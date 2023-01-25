@@ -12,7 +12,7 @@ class CantanteGuitarrista(nombre:String,
         println("El cantanteGuitarrista $nombre canta con un tono $tono.")
     }
 
-    override fun gitarrear() {
+    override fun guitarrear() {
         println("El cantanteGuitarrista $nombre gitarrea, el tipo de gitarra utilizado es $guitarra.")
     }
 }
