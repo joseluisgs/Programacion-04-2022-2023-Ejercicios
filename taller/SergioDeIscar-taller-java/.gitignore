@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/kotlin,gradle,intellij
-# Edit at https://www.toptal.com/developers/gitignore?templates=kotlin,gradle,intellij
+# Created by https://www.toptal.com/developers/gitignore/api/intellij,java,gradle
+# Edit at https://www.toptal.com/developers/gitignore?templates=intellij,java,gradle
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
@@ -114,7 +114,7 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
 .idea/**/azureSettings.xml
 
-### Kotlin ###
+### Java ###
 # Compiled class file
 *.class
 
@@ -167,4 +167,4 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
-# End of https://www.toptal.com/developers/gitignore/api/kotlin,gradle,intellij
+# End of https://www.toptal.com/developers/gitignore/api/intellij,java,gradle

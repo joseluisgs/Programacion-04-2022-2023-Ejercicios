@@ -5,7 +5,7 @@ public final class Chapista extends Trabajador{
         super(nombre, experiencia, horasDiarias);
     }
 
-    int salario = 1800;
+    int salario = 1700;
 
     @Override
     public void comer() {

@@ -97,7 +97,7 @@ public final class JefeTaller extends Persona{
     }
 
     public int getSizeTrabajadores() throws Exception {
-        if (trabajadoresCount != trabajadores.length + 1) throw new Exception("Error en el tamaño del jefe");
+        if (trabajadoresCount != trabajadores.length) throw new Exception("Error en el tamaño del jefe");
         return trabajadoresCount;
     }
     //endregion

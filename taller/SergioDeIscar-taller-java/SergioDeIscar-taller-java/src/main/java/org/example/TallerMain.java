@@ -34,7 +34,7 @@ public class TallerMain {
         System.out.println("---------------------");
     }
 
-    private static int calculateNomina(Persona[] personas) {
+    public static int calculateNomina(Persona[] personas) {
         int total = 0;
         for (Persona i : personas) {
             total += i != null ? i.getSalario() : 0;
@@ -43,7 +43,7 @@ public class TallerMain {
     }
 
     // No son genéricos, pero hacen la misma funcionalidad, no me funcionaban con genéricos
-    private static int countType(Persona[] personas, Class countClass) {
+    public static int countType(Persona[] personas, Class countClass) {
         int count = 0;
         for (Persona i : personas) {
             if (countClass.isInstance(i)) {
@@ -53,7 +53,7 @@ public class TallerMain {
         return count;
     }
 
-    private static Persona findFirstType(Persona[] personas, Class findClass) {
+    public static Persona findFirstType(Persona[] personas, Class findClass) {
         for (Persona persona : personas) {
             if (findClass.isInstance(persona)) {
                 return persona;

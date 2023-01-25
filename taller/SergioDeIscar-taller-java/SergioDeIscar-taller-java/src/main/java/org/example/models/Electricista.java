@@ -5,7 +5,7 @@ public class Electricista extends Trabajador{
         super(nombre, experiencia, horasDiarias);
     }
 
-    int salario = 1700;
+    int salario = 1800;
 
     @Override
     public void comer() {
