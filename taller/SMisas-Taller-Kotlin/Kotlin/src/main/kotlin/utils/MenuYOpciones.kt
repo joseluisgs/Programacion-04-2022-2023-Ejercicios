@@ -34,8 +34,8 @@ fun menu(taller: Array<Persona>) {
  * @return el número de la opción
  */
 fun entradaOpcion(): Int {
-    val opcion = readln().toIntOrNull() ?: -1
-    validarOpcion(opcion)
+    var opcion = readln().toIntOrNull() ?: -1
+    opcion = validarOpcion(opcion)
     return opcion
 }
 
