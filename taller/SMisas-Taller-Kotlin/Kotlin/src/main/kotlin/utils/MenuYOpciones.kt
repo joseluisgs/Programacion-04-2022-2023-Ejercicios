@@ -9,7 +9,7 @@ import kotlin.system.exitProcess
  * Ejecuta el bucle infinito que es el menú del programa
  * @param taller el array de personas que conforman el taller
  */
-fun menu(taller: Array<Persona?>) {
+fun menu(taller: Array<Persona>) {
     // Ponemos aquí cositas para que sea visualmente más atractivo
     println("Bienvenid@ al taller")
     println()
@@ -35,6 +35,16 @@ fun menu(taller: Array<Persona?>) {
  */
 fun entradaOpcion(): Int {
     val opcion = readln().toIntOrNull() ?: -1
+    validarOpcion(opcion)
+    return opcion
+}
+
+/**
+ * Valida la opción introducida
+ * @param opcion la opción introducida
+ * @return la opción validada
+ */
+fun validarOpcion(opcion: Int): Int {
     if (opcion !in 0..3) {
         return 4
     }
@@ -46,7 +56,7 @@ fun entradaOpcion(): Int {
  * @param taller el array de personas que conforman el taller
  * @param opcion el número de opción seleccionada
  */
-fun ejecutarOpcion(taller: Array<Persona?>, opcion: Int) {
+fun ejecutarOpcion(taller: Array<Persona>, opcion: Int) {
     // Con un when queda limpio
     when (opcion) {
         1 -> imprimirTaller(taller)

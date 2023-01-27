@@ -6,12 +6,10 @@ import models.*
  * Imprime datos de cada persona del taller
  * @param taller el array de personas que conforman el taller
  */
-fun imprimirTaller(taller: Array<Persona?>) {
+fun imprimirTaller(taller: Array<Persona>) {
     for (persona in taller) {
         println()
-        if (persona != null) {
-            println("Nombre: ${persona.nombre} - Experiencia: ${persona.experiencia} años - Id: ${persona.id}")
-        }
+        println("Nombre: ${persona.nombre} - Experiencia: ${persona.experiencia} años - Id: ${persona.id}")
     }
     println()
 }
@@ -20,7 +18,7 @@ fun imprimirTaller(taller: Array<Persona?>) {
  * Muestra el número de trabajadores de cada tipo
  * @param taller el array de personas que conforman el taller
  */
-fun enumeracionTrabajadores(taller: Array<Persona?>) {
+fun enumeracionTrabajadores(taller: Array<Persona>) {
     val arrayNumeroTrabajadores = busquedaTrabajadores(taller)
     mensajeEnumeracion(arrayNumeroTrabajadores)
 }
@@ -30,20 +28,18 @@ fun enumeracionTrabajadores(taller: Array<Persona?>) {
  * @param taller el array de personas que conforman el taller
  * @return array con el número de trabajadores por función
  */
-fun busquedaTrabajadores(taller: Array<Persona?>): IntArray {
+fun busquedaTrabajadores(taller: Array<Persona>): IntArray {
     // Demasiadas variables, hacer con un array de enteros directamente en futuras versiones
     var trabajadores = 0
     var jefesDeTaller = 0
     var chapistas = 0
     var electricistas = 0
     for (persona in taller) {
-        if (persona != null) {
-            when (persona.salario) {
-                1200.00 -> trabajadores++
-                1700.00 -> chapistas++
-                1800.00 -> electricistas++
-                2500.00 -> jefesDeTaller++
-            }
+        when (persona.salario) {
+            1200.00 -> trabajadores++
+            1700.00 -> chapistas++
+            1800.00 -> electricistas++
+            2500.00 -> jefesDeTaller++
         }
     }
     val trabajadoresGeneral = trabajadores + electricistas + chapistas
@@ -67,7 +63,7 @@ fun mensajeEnumeracion(arrayNumeroTrabajadores: IntArray) {
  * Muestra el costo de la plantilla
  * @param taller el array de personas que conforman el taller
  */
-fun contabilidadTaller(taller: Array<Persona?>) {
+fun contabilidadTaller(taller: Array<Persona>) {
     val arrayTrabajadores = busquedaTrabajadores(taller)
     mensajeContabilidad(arrayTrabajadores)
 }
@@ -80,10 +76,10 @@ fun mensajeContabilidad(arrayTrabajadores: IntArray) {
     // Es mejor tener el total calculado así es mucho más limpio implementarlo al mensaje
     val totalSueldos = calcularTotalSueldos(arrayTrabajadores)
 
-    println("Los jefes de taller cobran en total ${(arrayTrabajadores[0] * 2500.00).toDouble()} euros")
-    println("Los trabajadores sin especialidad cobran en total ${(arrayTrabajadores[2] * 1200.00).toDouble()} euros")
-    println("Los chapistas cobran en total ${(arrayTrabajadores[3] * 1700.00).toDouble()} euros")
-    println("Los electricistas cobran en total ${(arrayTrabajadores[4] * 1800.00).toDouble()} euros")
+    println("Los jefes de taller cobran en total ${(arrayTrabajadores[0] * 2500.00)} euros")
+    println("Los trabajadores sin especialidad cobran en total ${(arrayTrabajadores[2] * 1200.00)} euros")
+    println("Los chapistas cobran en total ${(arrayTrabajadores[3] * 1700.00)} euros")
+    println("Los electricistas cobran en total ${(arrayTrabajadores[4] * 1800.00)} euros")
     println("El gasto total en sueldos es de $totalSueldos euros")
     println()
 }
