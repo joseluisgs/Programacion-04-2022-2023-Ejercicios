@@ -11,17 +11,17 @@ fun main(){
     val productos = Array((1..15).random()){ Producto("name", 1f, 1) }
     ProductoFactory.getInstance().createProductoRandom(productos)
 
-    val nombreUsuario = inputString("Introduce el nombre del propietario de la compra:")
+    val nombreUsuario = inputString("Introduce el nombre del propietario de la compra: ")
 
     //Coroutine para simular el cambio de precio
-    val simMercado = simularMercado(productos, 1000)
+    //val simMercado = simularMercado(productos, 1000)
 
     // Lo hago así para que al hacer un readln no pare la ejecución de la coroutine que simula el mercado
-    runBlocking {
+    //runBlocking {
         val factura = Factura(nombreUsuario, LocalDate.now())
         do {
             when(menu()){
-                1 -> { println(factura); delay(4000) }
+                1 -> { println(factura); /*delay(4000)*/ Thread.sleep(4000) }
                 2 -> addItemAlCarro(factura, productos)
                 3 -> factura.deleteItem(
                         inputNumber("Introduce la posición del carrito donde quieres eliminar:",
@@ -36,14 +36,14 @@ fun main(){
                 5 -> factura.findItem(
                     inputNumber("Introduce la posición del carrito donde quieres eliminar:",
                     1..20) -1)
-                6 -> { println(mostrarProductos(productos)); delay(4000) }
+                6 -> { println(mostrarProductos(productos)); /*delay(4000)*/ Thread.sleep(4000) }
                 else -> break
             }
         }while (true)
-        simMercado.cancelAndJoin()
+        //simMercado.cancelAndJoin()
 
         println(factura)
-    }
+    //}
 }
 
 private fun addItemAlCarro(factura: Factura, opciones: Array<Producto>){
@@ -136,14 +136,14 @@ private fun printError(error: String){
  * @see Producto
  * @see Factura
  */
-fun simularMercado(productos: Array<Producto>, delay: Long = 5000) = GlobalScope.launch{
+/*fun simularMercado(productos: Array<Producto>, delay: Long = 5000) = GlobalScope.launch{
     do {
         delay(delay)
         for (i in productos.indices){
             productos[i].SetPrecio(ProductoFactory.getInstance().getPrecioRandom())
         }
     }while (true)
-}
+}*/
 
 fun clearConsole(count: Int = 30){
     for (i in 0..count){

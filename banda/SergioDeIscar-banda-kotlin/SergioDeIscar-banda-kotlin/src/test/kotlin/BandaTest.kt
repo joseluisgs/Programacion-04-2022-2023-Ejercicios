@@ -24,9 +24,9 @@ class BandaTest {
     @Test
     fun countType_Test() {
         assertAll(
-            { assertEquals(2, countType<Bajista>(musicians)) },
-            { assertEquals(1, countType<Cantante>(musicians)) },
-            { assertEquals(1, countType<Multinstrumentista>(musicians)) }
+            { assertEquals(2, countType(musicians, 3)) },
+            { assertEquals(1, countType(musicians, 1)) },
+            { assertEquals(1, countType(musicians, 8)) }
         )
     }
 
@@ -47,11 +47,42 @@ class BandaTest {
         )
 
         assertAll(
+            { assertEquals(targetCantante, findFirstType(personasTarget, 1)) },
+            { assertEquals(targetTeclista, findFirstType(personasTarget, 4)) }
+        )
+    }
+
+    /*@Test
+    fun countType_Test() {
+        assertAll(
+            { assertEquals(2, countType<Bajista>(musicians)) },
+            { assertEquals(1, countType<Cantante>(musicians)) },
+            { assertEquals(1, countType<Multinstrumentista>(musicians)) }
+        )
+    }*/
+
+    /*@Test
+    fun findFirstType_Test(){
+        val targetCantante = Cantante("target", 8, TonoType.SOPRANO)
+        val targetTeclista = Teclista("target", 8, 7)
+        val personasTarget: Array<Musician> = arrayOf(
+            targetCantante,
+            Cantante("pepe", 10, TonoType.CONTRALTO),
+            Cantante("pepe", 10, TonoType.BAJO),
+            Cantante("pepe", 10, TonoType.SOPRANO),
+            targetTeclista,
+            Teclista("pepa", 10, 8),
+            Teclista("pepa", 10, 8),
+            Teclista("pepa", 10, 8),
+            Teclista("pepa", 10, 8)
+        )
+
+        assertAll(
             { assertEquals(targetCantante, findFirstType<Cantante>(personasTarget)) },
             { assertEquals(targetTeclista, findFirstType<Teclista>(personasTarget)) },
             { assertEquals(targetCantante, findFirstType<Musician>(personasTarget)) }
         )
-    }
+    }*/
 
     @Test
     fun calculateNomina_Test(){
