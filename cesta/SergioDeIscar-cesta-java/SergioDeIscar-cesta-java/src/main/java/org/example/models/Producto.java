@@ -40,7 +40,7 @@ public final class Producto {
         this.precio = precio;
     }
     public void setStock(int stock) {
-        if (stock <= 0)
+        if (stock < 0)
             throw new IllegalArgumentException("El stock debe ser mayor a 0");
         this.stock = stock;
     }

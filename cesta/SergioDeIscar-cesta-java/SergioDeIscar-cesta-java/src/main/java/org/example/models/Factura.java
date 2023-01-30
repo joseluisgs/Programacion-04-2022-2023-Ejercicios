@@ -26,6 +26,9 @@ public class Factura {
     public LocalDate getDateCreated() {
         return dateCreated;
     }
+    public int getLengthItems(){
+        return items.length;
+    }
     //endregion
     //region Setters
     public void setUsuario(String usuario) {
@@ -108,4 +111,25 @@ public class Factura {
     }
     //endregion
     //endregion
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder("Factura -> ID: " + id + ", Usuario: " + usuario + ", Fecha: " + dateCreated + ", Items: ");
+        for (ItemFactura item : items) {
+            if (item != null){
+                builder.append("\n\t->\t").append(item);
+            }
+        }
+        builder.append("\n\nValor Total:\t").append(totalValue());
+        return builder.toString();
+    }
+
+    private float totalValue() {
+        var count = 0.0f;
+        for (ItemFactura item : items){
+            if (item != null)
+                count += item.calcularImporte();
+        }
+        return count;
+    }
 }

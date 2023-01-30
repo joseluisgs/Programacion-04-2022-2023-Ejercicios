@@ -3,9 +3,9 @@ package org.example.models;
 public final class ItemFactura {
     private int cantidad;
     private Producto producto;
-    float precioUnitario;
+    private final float precioUnitario;
 
-    public ItemFactura(int cantidad, Producto producto) {
+    public ItemFactura(Producto producto, int cantidad) {
         if (producto == null)
             throw new IllegalArgumentException("El producto no puede ser nulo");
         if (cantidad <= 0)

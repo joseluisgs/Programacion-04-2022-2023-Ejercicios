@@ -40,7 +40,11 @@ public final class ProductoFactory {
             do {
                 producto = createProductoRandom();
                 for (int j = 0; j < i; j++) {
-                    if (array[j].equals(producto)) {
+                    /*if (array[j].equals(producto)) {
+                        producto = null;
+                        break;
+                    }*/
+                    if (array[j].getNombre().equals(producto.getNombre())) {
                         producto = null;
                         break;
                     }
