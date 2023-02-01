@@ -1,0 +1,3 @@
+enum class Estado {
+    LIBRE, COMPRADO, RESERVADO, MANTENIMIENTO
+}
