@@ -2,7 +2,7 @@ package factura.models
 
 import java.time.LocalDate
 
-class Factura(val usuario: String, val dateCreate: LocalDate) {
+class Factura(private val usuario: String, private val dateCreated: LocalDate) {
     val id = count++
     private val items: Array<ItemFactura?> = Array(20) { null }
     companion object {
@@ -19,7 +19,7 @@ class Factura(val usuario: String, val dateCreate: LocalDate) {
     //region CRUD
     // Add
     fun addItem(newItem: ItemFactura): ItemFactura?{
-        val index = findIndexByItem(newItem) ?: -1
+        val index = findIndexByItem(newItem)
         if (index != -1){
             items[index]?.cantidad = items[index]?.cantidad!! + 1
             return items[index]
@@ -53,13 +53,13 @@ class Factura(val usuario: String, val dateCreate: LocalDate) {
         return findItem(item.item.nombre)
     }
 
-    fun findIndexByItem(item: ItemFactura): Int?{
+    fun findIndexByItem(item: ItemFactura): Int{
          for (i in items.indices){
              if (items[i] == item){
                  return i
              }
          }
-        return null
+        return -1
     }
 
     // Update
@@ -86,7 +86,7 @@ class Factura(val usuario: String, val dateCreate: LocalDate) {
     //endregion
 
     override fun toString(): String {
-        val stringBuilder = StringBuilder("Factura ($id): Usuario -> $usuario, Date -> $dateCreate, Items -> ")
+        val stringBuilder = StringBuilder("Factura ($id): Usuario -> $usuario, Date -> $dateCreated, Items -> ")
         for (i in items.indices){
             if (items[i] != null)
                 stringBuilder.append("\n\t${i+1}->\t").append(items[i])

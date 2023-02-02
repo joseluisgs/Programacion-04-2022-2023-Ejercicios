@@ -6,7 +6,7 @@ class Guitarrista(nombre:String,
                   override val experiencia: Int,
                   override val guitarra: GuitarraType): Musician(nombre), IGuitarrista {
     override val salario: Float = super.salario * 1.35f
-    override fun gitarrear() {
+    override fun guitarrear() {
         println("El guitarrista $nombre gitarrea, el tipo de gitarra utilizado es $guitarra.")
     }
 }

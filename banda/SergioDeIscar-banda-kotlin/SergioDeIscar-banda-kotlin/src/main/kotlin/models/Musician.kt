@@ -7,6 +7,6 @@ abstract class Musician(nombre:String): Persona(nombre) {
         println("El músico $nombre interpreter")
     }
     override fun respirar() {
-        "El músico $nombre respira."
+        println("El músico $nombre respira.")
     }
 }

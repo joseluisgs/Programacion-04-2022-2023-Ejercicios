@@ -5,4 +5,8 @@ open class Electricista(nombre: String, experiencia: Int, horasDiarias: Int): Tr
     override fun comer() {
         println("El trabajador electricista $nombre come.")
     }
+
+    override fun toString(): String {
+        return "Electricista -> Nombre: $nombre, Experiencia: $experiencia, Horas diarias: $horasDiarias, Salario: $salario"
+    }
 }

@@ -42,19 +42,20 @@ class JefeTaller(nombre: String, experiencia: Int): Persona(nombre, experiencia)
     }
 
     fun removeTrabajador(trabajador: Trabajador): Boolean{
-        val index = findTrabajador(trabajador)
+        val index = findTrabajadorIndex(trabajador)
         if (index == -1) return false
         return removeTrabajador(index)
     }
 
     fun removeTrabajador(index: Int): Boolean{
         if (index !in trabajadores.indices) return false
+        if (trabajadores[index] == null) return false
         trabajadores[index] = null
         return true
     }
 
     fun updateTrabajador(oldTrabajador: Trabajador, newTrabajador: Trabajador): Boolean{
-        val index = findTrabajador(oldTrabajador)
+        val index = findTrabajadorIndex(oldTrabajador)
         if (index == -1) return false
         return updateTrabajador(index, newTrabajador)
     }
@@ -65,17 +66,22 @@ class JefeTaller(nombre: String, experiencia: Int): Persona(nombre, experiencia)
         return true
     }
 
-    fun findTrabajador(trabajador: Trabajador): Int{
+    fun findTrabajadorIndex(trabajador: Trabajador): Int{
         return trabajadores.indexOf(trabajador)
     }
 
     fun exitsTrabajador(trabajador: Trabajador): Boolean{
-        return findTrabajador(trabajador) != -1
+        return findTrabajadorIndex(trabajador) != -1
     }
 
     fun getTrabajador(index: Int): Trabajador?{
         require(index in trabajadores.indices)
         return trabajadores[index]
+    }
+
+    fun getSizeTrabajadores(): Int{
+        if (trabajadoresCount != trabajadores.size) throw Exception("Error en el tamaño del jefe")
+        return trabajadoresCount
     }
     //endregion
 }
