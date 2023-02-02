@@ -1,0 +1,46 @@
+Banda de 50 personas
+Persona
+-nombre
+-respirar()
+Músico
+-interpretar()
+-añosExperiencia
+-salario = 1500€
+Trompetista
+-respirar()
+-capacidadPulmonar
+-salario * 0,20
+-5%
+Cantante
+-respirar()
+-tono(varítono,etc...)
+-sala   rio * 0,40
+-20%
+Guitarrista
+-tipoGuitarra
+-salario * 0,35
+-20%
+Bajista
+-numeroCuerdas
+-salario * 0,30
+-10%
+Teclista
+-cantidadTeclados
+-salario * 0,30
+-10%
+Percusión
+-tipoPercusión
+-salario * 0,35
+-15%
+Cantante y guitarra
+-salario * 0,5
+15%
+Bajista, teclista y percusionista
+-salario * 0,45
+5%
+COSAS A HACER
+Indicar cuantos músicos hay de cada tipo.
+Salario Total.
+
+
+
