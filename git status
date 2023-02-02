@@ -1,0 +1,618 @@
+[33mcommit fe66ede13a5ba78f158a56d3c938ab9500e1c98f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Maarioo25 <maarioo2525@gmail.com>
+Date:   Thu Feb 2 20:36:37 2023 +0100
+
+    Commit de todo
+
+[33mcommit 369ba68cc18b9ec4d4c7d8c821dbf9ac853963f6[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 3689eb8 a388e1e
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Thu Feb 2 18:22:12 2023 +0100
+
+    Merge pull request #28 from kevindmatuteo/dev
+    
+    KevinMO-Taller
+
+[33mcommit a388e1ef20652a54fb40ff89d9b2678fa3ce7a8b[m
+Author: Kevin Matute <kekimat12@gmail.com>
+Date:   Thu Feb 2 17:29:31 2023 +0100
+
+    KevinMO-Taller
+
+[33mcommit 3689eb82549faf1e10b908d2e2d5a9f3fce3fcc9[m
+Merge: 5c748a7 4cd3c14
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Thu Feb 2 10:14:56 2023 +0100
+
+    Merge pull request #27 from SergioDeIscarValera/main
+    
+    SergioDeIscar-Mejoras y Nuevos Ejercicios
+
+[33mcommit 5c748a7f28faca460cfa2f3d37e2cc42a36e9268[m
+Merge: d2f04c5 34bb1b4
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Wed Feb 1 19:00:55 2023 +0100
+
+    Merge pull request #26 from IvanRoncoCebadera/dev
+    
+    IvanRC-ReservasHotel v1.0
+
+[33mcommit 34bb1b4f9efb9181a40c59013f8e3dce1d061a27[m
+Author: Iván Ronco <ivan.ronco@alumno.iesluisvives.org>
+Date:   Wed Feb 1 10:54:03 2023 +0100
+
+    IvánRC-ReservasHotel v1.0
+
+[33mcommit d2f04c5a326a90cc20e13731047404a710957dbe[m
+Merge: 3202809 f3043ee
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Tue Jan 31 15:51:34 2023 +0100
+
+    Merge pull request #25 from JiaChengZhang14/develop
+    
+    Entrega de Banda. JiaCheng Zhang.
+
+[33mcommit f3043eec09e9619ad0c1156da0ba89875c9e9d2c[m
+Author: JiaCheng Zhang <jiachengmadrid@gmail.com>
+Date:   Tue Jan 31 09:10:09 2023 +0100
+
+    Entrega banda Kotlin-Java
+
+[33mcommit a726b7e0c7b3a4dd1de8acd2b2482b635152a7f0[m
+Merge: a780124 d4f8f98
+Author: JiaCheng Zhang <jiachengmadrid@gmail.com>
+Date:   Tue Jan 31 09:08:13 2023 +0100
+
+    Merge branch 'develop' of https://github.com/JiaChengZhang14/Programacion-04-2022-2023-Ejercicios_Fork into develop
+
+[33mcommit a78012494ffc6987bc63f6ba8317d363257f3bb4[m
+Author: JiaCheng Zhang <jiachengmadrid@gmail.com>
+Date:   Tue Jan 31 09:06:42 2023 +0100
+
+    Commit
+
+[33mcommit d4f8f9882b9fa1b9bd2b37429de3774721f31a51[m
+Author: JiaChengZhang14 <113969561+JiaChengZhang14@users.noreply.github.com>
+Date:   Tue Jan 31 08:58:43 2023 +0100
+
+    banda error
+
+[33mcommit 31e2736e5181b881004fd2bf5970996e03349c3e[m
+Author: JiaCheng Zhang <jiachengmadrid@gmail.com>
+Date:   Tue Jan 31 08:56:09 2023 +0100
+
+    Entrega de Banda
+
+[33mcommit 32028095acd92958a88c1ecd4faac68ab5563193[m
+Merge: d75476e 752216a
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Mon Jan 30 15:38:08 2023 +0100
+
+    Merge pull request #24 from sergiosimonf/main
+    
+    SSimón Cesta-Kotlin
+
+[33mcommit 4cd3c141912d988483496262b868f7ceb1546c0f[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Mon Jan 30 14:45:48 2023 +0100
+
+    SergioDeIscar-cesta-java v0.01
+
+[33mcommit 752216ad1d25022a226f4b6ef2152f1c274c1f62[m
+Author: Sergio Simón Fernandez <s.simon.fdez@gmail.com>
+Date:   Sat Jan 28 18:43:09 2023 +0100
+
+    SSimón Cesta-Kotlin
+
+[33mcommit d75476ec91c33c78e465b0b476d1790ee445bade[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Fri Jan 27 23:10:26 2023 +0100
+
+    Delete taller/Kotlin/.idea directory
+
+[33mcommit 826b1311e3f8ba1640677c41f40502b23e6278f8[m
+Merge: 3b86c6a f005785
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Fri Jan 27 23:09:51 2023 +0100
+
+    Merge pull request #23 from SergioMisas/dev
+    
+    Test hechos y algunos arreglos
+
+[33mcommit f005785a201f0eb813a3b124d059bb7ba047224d[m
+Author: Sergio Misas Vírseda <misas_virseda@hotmail.es>
+Date:   Fri Jan 27 11:13:35 2023 +0100
+
+    Solucionado error bucle
+
+[33mcommit 4f7448a9fd96297b783bfb7211220ff82efb8383[m
+Author: Sergio Misas Vírseda <misas_virseda@hotmail.es>
+Date:   Fri Jan 27 11:00:46 2023 +0100
+
+    Corrección Dev
+
+[33mcommit b95e13968f21c26b836d7af9c69fbe4baa693dab[m
+Merge: 7ec32c8 3b86c6a
+Author: Sergio Misas Vírseda <misas_virseda@hotmail.es>
+Date:   Fri Jan 27 10:58:48 2023 +0100
+
+    Merge branch 'main' of https://github.com/joseluisgs/Programacion-04-2022-2023-Ejercicios into dev
+
+[33mcommit 4f672eea336685fdf19ccf232d8ec4be8d9247a5[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Fri Jan 27 10:03:41 2023 +0100
+
+    SergioDeIscar RollBack CosasChulas
+
+[33mcommit 3b86c6a5303865d789c0450450458af7b9b8ddbb[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Thu Jan 26 11:01:06 2023 +0100
+
+    Create README.md
+
+[33mcommit 5bfd8723d38ddcb3c513ee6dc34c13674b6c9e12[m
+Merge: f511145 5aa9d75
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Wed Jan 25 15:54:46 2023 +0100
+
+    Merge pull request #21 from Sbytmacke/dev
+    
+    AppCine v1.0 AMarotoChivite
+
+[33mcommit 5aa9d7582e38a5a8a406a60d256f5994a8c99a02[m
+Author: Angel M.Chivite <Sbytmacke@gmail.com>
+Date:   Wed Jan 25 14:35:09 2023 +0100
+
+    AppCine v1.0
+
+[33mcommit 3bdb7ee8a1e7783a4a890af283ab04d0a7fa74c1[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Wed Jan 25 13:33:43 2023 +0100
+
+    SergioDeIscar-banda-kotlin v0.02
+
+[33mcommit 68e2891392a450219a2b8f655141832b7bca5417[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Wed Jan 25 13:19:42 2023 +0100
+
+    SergioDeIscar-taller-java v0.02
+
+[33mcommit 9cb52c28b1e8a5504de61015dae0dc2e75ecc787[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Wed Jan 25 12:47:14 2023 +0100
+
+    SergioDeIscar-banda-java v0.02
+
+[33mcommit e37a407090da9095fa221bdc02e7fecf73e4f612[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Wed Jan 25 12:20:50 2023 +0100
+
+    SergioDeIscar-cine-java vNotCompile
+
+[33mcommit f511145cdbf8c1a03554c49e274f78f14ec8a65d[m
+Merge: ed4f735 3e5c515
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Tue Jan 24 21:53:27 2023 +0100
+
+    Merge pull request #20 from Sbytmacke/dev
+    
+    GameCatan v1.0
+
+[33mcommit 3e5c515fe9eb0abe12f8ac7b0cceec4d7ce10302[m
+Author: Angel M.Chivite <Sbytmacke@gmail.com>
+Date:   Tue Jan 24 21:29:49 2023 +0100
+
+    GameCatan v1.0
+
+[33mcommit 1f8e848f5557f8137dc5e477d77196da0ffe68c9[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Tue Jan 24 19:37:52 2023 +0100
+
+    SergioDeIscar-banda-java v0.01
+
+[33mcommit 4a47bd7a314671559f7a3e3580559a2c63cf0654[m
+Merge: 9c72c03 1a42220
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Tue Jan 24 09:25:16 2023 +0100
+
+    Merge branch 'main' of https://github.com/SergioDeIscarValera/Programacion-04-2022-2023-Ejercicios
+
+[33mcommit ed4f735239c6c44ef2f632d8cdeb86ed81de284f[m
+Merge: 9400b51 55b7532
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Tue Jan 24 07:52:04 2023 +0100
+
+    Merge pull request #19 from Sbytmacke/dev
+    
+    Cesta v1.0
+
+[33mcommit 55b7532a0b77d4d8b441336e0617ce6ffb0f04e2[m
+Author: Angel M.Chivite <Sbytmacke@gmail.com>
+Date:   Mon Jan 23 22:11:22 2023 +0100
+
+    Cesta v1.0
+
+[33mcommit 9400b51229ef860983095980a5158ad41d317f04[m
+Merge: f4a04a8 8097983
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Mon Jan 23 20:46:20 2023 +0100
+
+    Merge pull request #18 from JiaChengZhang14/develop
+    
+    Taller implementado
+
+[33mcommit f4a04a89596eed861be6be38d64aedb4182a58fe[m
+Merge: 94bf8e1 b8915d7
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Mon Jan 23 20:45:48 2023 +0100
+
+    Merge pull request #17 from OscarGrC/main
+    
+    Pull con Banda y Reloj
+
+[33mcommit 80979839065f42d54b69690edc931c0d379af5fa[m
+Author: JiaCheng Zhang <jiachengmadrid@gmail.com>
+Date:   Mon Jan 23 19:25:52 2023 +0100
+
+    carpeta taller
+
+[33mcommit befd067b4e920b98162d516d847b1ab2fa47ffb5[m
+Author: JiaCheng Zhang <jiachengmadrid@gmail.com>
+Date:   Mon Jan 23 19:24:01 2023 +0100
+
+    Taller implementado
+
+[33mcommit 9c72c03d2f1b8edc8fc7bb9f578fa5a9decce91e[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Mon Jan 23 15:11:22 2023 +0100
+
+    SergioDeIScar-taller-java v0.01
+
+[33mcommit 1906a9bfc37d276e97653f264969bcef5f6b5278[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Mon Jan 23 11:23:50 2023 +0100
+
+    SergioDeIscar-taller-kotlin v0.02
+
+[33mcommit b8915d735c8eddc536603fb3db627ff10c65245a[m
+Merge: 0d7b7c3 94bf8e1
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Mon Jan 23 11:17:04 2023 +0100
+
+    Merge branch 'joseluisgs:main' into main
+
+[33mcommit 94bf8e1c8cb94b5b1b910e6176528adeb97f01bc[m
+Merge: f9a7444 7f791ce
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Mon Jan 23 08:36:15 2023 +0100
+
+    Merge pull request #16 from IvanRoncoCebadera/dev
+    
+    IvanRC-ejercicios: banda, aparcamiento y taller.
+
+[33mcommit f9a74441ab8bbc0a7bed66ea8f346b05ed6061b2[m
+Merge: 663df93 7bf24de
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Mon Jan 23 08:35:49 2023 +0100
+
+    Merge pull request #15 from Sbytmacke/Develop
+    
+    Angel Maroto Chivite: Añadido parking, banda y taller, en Java y Kotlin
+
+[33mcommit 7f791ce1a569bbd7fff3cee494cfabdea183acfb[m
+Author: Iván Ronco Cebadera <113459253+IvanRoncoCebadera@users.noreply.github.com>
+Date:   Mon Jan 23 00:09:16 2023 +0100
+
+    IvanRC-taller-v.1.0
+
+[33mcommit 5c9c9e4a2c7d347cad679f1c540153a21054c95a[m
+Author: Iván Ronco Cebadera <113459253+IvanRoncoCebadera@users.noreply.github.com>
+Date:   Mon Jan 23 00:06:08 2023 +0100
+
+    IvanRC-banda-v.1.0
+
+[33mcommit c3db01cd26537cdaa01ad727837dbcc76addf811[m
+Author: Iván Ronco Cebadera <113459253+IvanRoncoCebadera@users.noreply.github.com>
+Date:   Mon Jan 23 00:02:04 2023 +0100
+
+    IvanRC-aparcamiento-v.1.0
+
+[33mcommit bf974480f9d38051ac00fda1210776e4a97f7586[m
+Author: Iván Ronco Cebadera <113459253+IvanRoncoCebadera@users.noreply.github.com>
+Date:   Sun Jan 22 23:52:52 2023 +0100
+
+    Add files via upload
+
+[33mcommit 7bf24deb33b9eef8a0bf7df927f739a95374e033[m
+Author: Angel M.Chivite <Sbytmacke@gmail.com>
+Date:   Sun Jan 22 23:37:03 2023 +0100
+
+    Añadido parking, banda y taller en Java y Kotlin
+
+[33mcommit 0d7b7c317ef6d1c36c531e6ee3b0ff058d1bacfd[m
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Sun Jan 22 17:30:43 2023 +0100
+
+    commit de reloj ej01-01 OscarGrC
+
+[33mcommit 905a975973648116df533f6229f2548e117196ed[m
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Sun Jan 22 14:31:25 2023 +0100
+
+    commit con DAMband
+
+[33mcommit 663df9371abd718acab5ae4a09e5da06c0669bc8[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Sun Jan 22 09:10:59 2023 +0100
+
+    Delete ejercicios/OscarGrC/OscarGrC-DamBand-Kotlin directory
+    
+    @OscarGrC borrado porque ese no es su lugar
+
+[33mcommit 20f7e4bdfe72e538f2c31fe313ac98f39adcb471[m
+Merge: ca65081 63cdb88
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Sun Jan 22 01:02:20 2023 +0100
+
+    Merge pull request #14 from OscarGrC/main
+    
+    OscarGrC Ejercicios Banda,sanke,catan
+
+[33mcommit 63cdb88bc317d628c9f3ab674b5f5692cd3a168f[m
+Merge: e728286 ca65081
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Sat Jan 21 17:47:15 2023 +0100
+
+    Merge branch 'joseluisgs:main' into main
+
+[33mcommit e7282863ee9ee494a4761aef1112952770a64f09[m
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Sat Jan 21 17:45:57 2023 +0100
+
+    Oscar Grc  Snake y catan
+
+[33mcommit ca650819e821e0f9df240fb5de6c6e4bf7ed4a31[m
+Merge: c28a7fb 1a42220
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Sat Jan 21 14:31:47 2023 +0100
+
+    Merge pull request #13 from SergioDeIscarValera/main
+    
+    SergioDeIscar-kotlin v0.01
+
+[33mcommit 1a42220413e5d4cd4547a6eaddaae264d1619399[m
+Merge: c5d6e2d c28a7fb
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Sat Jan 21 14:31:06 2023 +0100
+
+    Merge branch 'main' into main
+
+[33mcommit c5d6e2dcde980cc764d29beb7ff81882791b395b[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Sat Jan 21 12:14:11 2023 +0100
+
+    SergioDeIscar-cine-kotlin v0.01
+
+[33mcommit dd81c326ea55bdd0ec5bcaacdbd1f2965f72f7e6[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Sat Jan 21 12:13:24 2023 +0100
+
+    SergioDeIscar-cesta-kotlin v0.01
+
+[33mcommit 9e24856e4d89a549539b0765be52d81e7240f17d[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Sat Jan 21 12:11:57 2023 +0100
+
+    SergioDeIscar-taller-kotlin v0.01
+
+[33mcommit 70d94967986cd1f966f0f6d11b19fb76f0b5b134[m
+Author: SergioDeIscarValera <seroigres888@gmail.com>
+Date:   Sat Jan 21 12:11:01 2023 +0100
+
+    SergioDeIscar-banda-kotlin v0.01
+
+[33mcommit f1d7920adc53c039b3210d6fa298f721a7da19d7[m
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Thu Jan 19 23:32:58 2023 +0100
+
+    Commit OscarGrC con ejercicio Banda con Kotlin
+
+[33mcommit ea58a84a533b23fa1a565051e99818b51d07bc3b[m
+Merge: 8d6c744 c28a7fb
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Thu Jan 19 23:29:13 2023 +0100
+
+    Merge remote-tracking branch 'upstream/main'
+
+[33mcommit c28a7fb31f76813f143628603435c2235693584b[m
+Merge: a912837 382278e
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Thu Jan 19 17:23:03 2023 +0100
+
+    Merge pull request #11 from JiaChengZhang14/develop
+    
+    entrega de ejercicios Cine JiaCheng Zhang.
+
+[33mcommit 382278e85a8a36be6120ba1f245a2c1dae3f157a[m
+Author: JiaCheng Zhang <jiachengmadrid@gmail.com>
+Date:   Thu Jan 19 16:32:51 2023 +0100
+
+    Documentos metidos a una carpeta única
+
+[33mcommit a912837f07211c9551a1b84981e96aa67ce9d971[m
+Merge: fefe45c 5abd429
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Thu Jan 19 06:28:23 2023 +0100
+
+    Merge pull request #8 from sergiosimonf/main
+    
+    SSimón Cine-Java
+
+[33mcommit 8d6c74430996e898d50cec3765a19cb42e09aab8[m
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Wed Jan 18 20:29:45 2023 +0100
+
+    Commit Ejercicio 01 lista con test
+
+[33mcommit 5abd429bbfa62511660494c598147b22a0dc8f5e[m
+Author: Sergio Simón Fernandez <s.simon.fdez@gmail.com>
+Date:   Wed Jan 18 20:04:24 2023 +0100
+
+    SSimón Cine-Java
+
+[33mcommit fefe45c9eb2addfc1917880307e077cf22af3912[m
+Merge: 1262eab fb830ef
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Wed Jan 18 19:05:30 2023 +0100
+
+    Merge pull request #7 from OscarGrC/main
+    
+    OscarGrC Pull taller
+
+[33mcommit fb830ef9e07a7d23ce916fe14d60a50418cc3806[m
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Wed Jan 18 16:26:57 2023 +0100
+
+    Commit con Ejercicio Taller
+
+[33mcommit 60982a27efae9399f4526b5ce5b062a3148d39be[m
+Merge: bebb583 1262eab
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Wed Jan 18 16:05:55 2023 +0100
+
+    Merge branch 'joseluisgs:main' into main
+
+[33mcommit 1262eab7fc96176b7529cdbd77f9aebdb6c8f226[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Wed Jan 18 10:05:33 2023 +0100
+
+    Create README.md
+
+[33mcommit 9373005a439b774d3fbd0dd76352886856d8a92e[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Wed Jan 18 10:04:43 2023 +0100
+
+    Delete ejercicios/IvanRC-Taller-Kotlin directory
+
+[33mcommit 7d18589125ae179952988318818cd5394c7e37c8[m
+Merge: a23d0fe 5af2f8f
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Wed Jan 18 10:03:45 2023 +0100
+
+    Merge pull request #6 from IvanRoncoCebadera/dev
+    
+    Entrega de ejercicios: cine, cesta y taller.
+
+[33mcommit 5af2f8f576d84b57f31f4b6327ddc592f0090599[m
+Author: Iván Ronco <ivan.ronco@alumno.iesluisvives.org>
+Date:   Tue Jan 17 22:36:04 2023 +0100
+
+    Primer commit de IvanRoncoCebadera
+
+[33mcommit 7ec32c802b687f9fc1e989117f2deb015603e2bf[m
+Author: Sergio Misas Vírseda <misas_virseda@hotmail.es>
+Date:   Tue Jan 17 20:56:35 2023 +0100
+
+    Ejercicio Taller Sergio Misas
+
+[33mcommit bebb58342904e4bae633b7c7cbed63b25c19d92e[m
+Merge: 4028a77 a23d0fe
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Tue Jan 17 18:26:35 2023 +0100
+
+    Merge branch 'joseluisgs:main' into main
+
+[33mcommit 4028a77d649368fcfc181768e0b447c3caa79ff6[m
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Tue Jan 17 18:24:55 2023 +0100
+
+    borrando .idea
+
+[33mcommit 1561d09cdd86e0342dfa39c9e33fa93bc640f3ff[m
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Tue Jan 17 18:23:18 2023 +0100
+
+    Commit borrando .idea del commit
+
+[33mcommit a23d0fe2c6efd5f0d3f5bbff796ce82da6ce9963[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Tue Jan 17 18:19:13 2023 +0100
+
+    Delete .idea directory
+    
+    Lo ha subido Oscar por error
+
+[33mcommit 1138f62c80780e4fdb8dd0693f9f63229ec9611b[m
+Merge: 7edce2b 0e79fa2
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Tue Jan 17 18:18:20 2023 +0100
+
+    Merge pull request #2 from OscarGrC/main
+    
+    OscarGrC --Commit con Cine/C.Compra
+
+[33mcommit 0e79fa236059452fbe0683d2ab813b9bb1fa1295[m
+Author: Oscar gracia <113419592+OscarGrC@users.noreply.github.com>
+Date:   Tue Jan 17 10:45:31 2023 +0100
+
+    Commit con Cine/C.Compra
+
+[33mcommit 00ff9d259be6b6404f65397fc93f636a1ffb35bb[m
+Author: JiaCheng Zhang <jiachengmadrid@gmail.com>
+Date:   Tue Jan 17 09:40:27 2023 +0100
+
+    documentos añadidos a la rama develop
+
+[33mcommit bd8471b58b4fd14036d4d7770b550bf2ebbc8f5a[m
+Author: JiaCheng Zhang <jiachengmadrid@gmail.com>
+Date:   Tue Jan 17 09:37:25 2023 +0100
+
+    ajustes
+
+[33mcommit a8e5f1ca722d041e92c9946f40689034d598f7ee[m
+Author: JiaCheng Zhang <jiachengmadrid@gmail.com>
+Date:   Mon Jan 16 19:36:40 2023 +0100
+
+    carpetas renombradas
+
+[33mcommit aa290ac28e69813b47690c3583bb6e54811f8153[m
+Author: JiaCheng Zhang <jiachengmadrid@gmail.com>
+Date:   Mon Jan 16 19:30:32 2023 +0100
+
+    entrega de ejercicios
+
+[33mcommit 7edce2bf528ddda52f38b18a4986b9947f9bc76b[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Mon Jan 16 19:21:50 2023 +0100
+
+    Create README.md
+
+[33mcommit fbb07b67d77a1d088b1a8b6e693b796648105406[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Mon Jan 16 19:20:31 2023 +0100
+
+    Create READMe.md
+
+[33mcommit 83d37a38a1409c9ffa1c3b1b7b61126dc6384043[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Mon Jan 16 19:18:12 2023 +0100
+
+    Create READMe.md
+
+[33mcommit aa7d47f0056fa326c37c6445348d420e6fdda101[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Mon Jan 16 19:17:26 2023 +0100
+
+    Create READMe.md
+
+[33mcommit 76f532b157f0bfcd680a01e5704d60c3aa652817[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Mon Jan 16 18:37:18 2023 +0100
+
+    Update README.md
+
+[33mcommit d60768c980f621dc19b72daa2b3090fe8b06c361[m
+Author: José Luis González Sánchez <47913953+joseluisgs@users.noreply.github.com>
+Date:   Mon Jan 16 18:32:53 2023 +0100
+
+    Initial commit
